@@ -39,7 +39,9 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h1 class="mb-5">Griffin Hood<br/>Full Stack Web Developer</h1>
+          <h1 class="">Griffin Hood</h1>
+          <p>Boston, MA</p>
+          <h1>Full Stack Web Developer</h1>
         </div>
         <div class="col-md-8 col-lg-6 col-xl-5 mx-auto">
           <button type="submit" class="btn btn-block btn-lg btn-success">Download Resume</button>
@@ -48,21 +50,8 @@
     </div>
   </header>
 
-  <!-- Icons Grid -->
-  <!-- <section>
-    <div class="container-fluid p-5">
-      <div class="row d-flex flex-row justify-content-center">
-        <img class="" src="./public/HTML5_Logo.png" alt="HTML5">
-        <img src="./public/JS_Logo.png" alt="Javascript">
-        <img src="./public/CSS_Logo.png" alt="CSS">
-      </div>
-      <div class="row">
-
-      </div>
-    </div>
-  </section> -->
-  <section class="bg-light p-5" id="skills">
-    <div class="container">
+  <section class="" id="skills">
+    <div class="container-fluid bg-info">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Skills</h2>
@@ -154,11 +143,24 @@
     </div>
   </section>
 
+  <!-- About Me -->
+  <section>
+    <div class="container-fluid p-5 bg-info">
+      <div class="row mb-5">
+        <h2 class="mx-auto p-5 col-12 text-center">About Me</h2>
+        <div class="headshot-div col-12 mx-auto d-flex justify-content-center pb-5">
+          <img id="headshot" class="mx-auto" src="./public/ruby-logo.png" alt="headshot">
+        </div>
+        <h4 class="mx-auto col-12 text-center">I am full stack web developer in the Boston area. Aside from the skills above, I also like Hockey and coaching wrestling. I love computer science and exploring new development tools and frameworks</h4>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Project Showcases -->
   <section class="showcase">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
+    <div class="container-fluid p-0 bg-info">
+      <div class="row no-gutters d-flex align-items-center">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('./public/inventory_client.png');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -166,21 +168,37 @@
           <p class="lead mb-0">Inventix is an inventory management application. A user can choose from a variety of products to add to their inventory. They can update and delete their inventory items with just one mouse click.</p>
           <a href="https://ghood97.github.io/inventory_manager_client/" target="_blank"><button id="inventory-client-btn" class="btn btn-primary" type="button">Deployed Client App</button></a>
           <a href="https://github.com/ghood97/inventory_manager_client" target="_blank"><button class="btn btn-primary" type="button">Client Repo</button></a>
-          <label for="inventory-client-btn">login creds: Email=test@example Password=123</label>
+          <label for="inventory-client-btn">Login Credentials: Email=test@example | Password=123</label>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('./public/tic_tac_toe_client.png');"></div>
         <div class="col-lg-6 my-auto showcase-text">
-          <h2>Updated For Bootstrap 4</h2>
-          <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          <h2>Tic Tac Toe</h2>
+          <p class="lead mb-0">For my first web developmetn project, I created a Tic Tac Toe game where users can create an account, sign-in, and play games locally against another human, or an AI opponent</p>
+          <a href="https://ghood97.github.io/tic-tac-toe/" target="_blank"><button id="ttt-client-btn" class="btn btn-primary" type="button">Deployed Client App</button></a>
+          <a href="https://github.com/ghood97/tic-tac-toe" target="_blank"><button class="btn btn-primary" type="button">Client Repo</button></a>
+          <label for="ttt-client-btn">Login Credentials: Email=test@example | Password=123</label>
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('#');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>Easy to Use &amp; Customize</h2>
-          <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          <h2>Project 3</h2>
+          <p class="lead mb-0">Project 3 Description</p>
+          <a href="#" target="_blank"><button id="p3-client-btn" class="btn btn-primary" type="button">Deployed Client App</button></a>
+          <a href="#" target="_blank"><button class="btn btn-primary" type="button">Client Repo</button></a>
+          <label for="p3-client-btn">Login Credentials: Email=test@example | Password=123</label>
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('#');"></div>
+        <div class="col-lg-6 my-auto showcase-text">
+          <h2>Capstone Project</h2>
+          <p class="lead mb-0">Capstone Project Description</p>
+          <a href="#" target="_blank"><button id="cap-client-btn" class="btn btn-primary" type="button">Deployed Client App</button></a>
+          <a href="#" target="_blank"><button class="btn btn-primary" type="button">Client Repo</button></a>
+          <label for="cap-client-btn">Login Credentials: Email=test@example | Password=123</label>
         </div>
       </div>
     </div>
@@ -189,100 +207,35 @@
   <!-- Testimonials -->
   <section class="testimonials text-center bg-light">
     <div class="container">
-      <h2 class="mb-5">What people are saying...</h2>
+      <h2 class="mb-5">Contact Me</h2>
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
-            <h5>Margaret E.</h5>
-            <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+            <a href="https://www.linkedin.com/in/griffin-hood-dev/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="./public/linked_in_logo.png" alt="LinkedIn"></a>
+            <h5>LinkedIn</h5>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
-            <h5>Fred S.</h5>
-            <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+            <a href="https://github.com/ghood97" target="_blank"><img class="img-fluid rounded-circle mb-3" src="./public/github_logo.png" alt="GitHub"></a>
+            <h5>GitHub</h5>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
-            <h5>Sarah W.</h5>
-            <p class="font-weight-light mb-0">"Thanks so much for making these free resources available to us!"</p>
+            <a href="mailto:griffinhood@verizon.net" target="_blank"><img class="img-fluid rounded-circle mb-3" src="./public/email_logo.png" alt="Email"></a>
+            <h5>Email Me</h5>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Ready to get started? Sign up now!</h2>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form>
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-              </div>
-            </div>
-          </form>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="footer bg-light">
+  <footer class="footer bg-dark">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-          <ul class="list-inline mb-2">
-            <li class="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Contact</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
-            <li class="list-inline-item">&sdot;</li>
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-        </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+          <p class="text-light mb-4 mb-lg-0 mx-auto">A website by Griffin Hood</p>
       </div>
     </div>
   </footer>
