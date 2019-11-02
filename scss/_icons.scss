@@ -1,0 +1,28 @@
+// .features-icons {
+//   padding-top: 7rem;
+//   padding-bottom: 7rem;
+//   .features-icons-item {
+//     max-width: 20rem;
+//     .features-icons-icon {
+//       height: 7rem;
+//       i {
+//         font-size: 4.5rem;
+//       }
+//     }
+//     &:hover {
+//       .features-icons-icon {
+//         i {
+//           font-size: 5rem;
+//         }
+//       }
+//     }
+//   }
+// }
+.icon-img {
+  width: 90px;
+  height: 90px;
+}
+
+.img-div:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}

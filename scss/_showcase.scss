@@ -1,0 +1,15 @@
+.showcase {
+  .showcase-text {
+    padding: 3rem;
+  }
+  .showcase-img {
+    min-height: 40rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  @media (min-width: 768px) {
+    .showcase-text {
+      padding: 3rem;
+    }
+  }
+}
