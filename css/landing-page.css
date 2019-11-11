@@ -60,7 +60,7 @@ header.masthead p {
 }
 
 .showcase .showcase-img {
-  min-height: 40rem;
+  min-height: 20rem;
   background-size: contain;
   background-repeat: no-repeat;
 }
