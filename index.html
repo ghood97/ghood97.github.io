@@ -165,7 +165,7 @@
   <!-- Project Showcases -->
   <section id="showcase" class="showcase">
     <div class="container-fluid p-0 bg-info">
-      <div class="row">
+      <div class="row mx-auto">
         <div class="col-12 mx-auto d-flex justify-content-center mt-3 pt-5">
           <h1 class="font-weight-bold">Projects</h1>
         </div>
@@ -258,6 +258,18 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    let docWidth = document.documentElement.offsetWidth;
+
+    [].forEach.call(
+      document.querySelectorAll('*'),
+      function(el) {
+        if (el.offsetWidth > docWidth) {
+          console.log(el);
+        }
+      }
+    );
+  </script>
 
 </body>
 
