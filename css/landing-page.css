@@ -76,6 +76,11 @@ label {
   font-weight: bold;
 }
 
+.capstone {
+  font-size: 5rem;
+  font-weight: bolder;
+}
+
 .icon-img {
   width: 90px;
   height: 90px;
