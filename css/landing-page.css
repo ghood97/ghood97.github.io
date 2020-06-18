@@ -136,5 +136,17 @@ footer.footer {
 }
 
 .navbar {
-  max-height: 75px;
+  max-height: 130px;
+}
+
+@media (min-width: 300px) {
+  .navbar-brand {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
 }
